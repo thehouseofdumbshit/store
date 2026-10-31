@@ -41,3 +41,9 @@
 - The artist dashboard currently displays commission notifications and brief details; it does not yet provide accept/decline controls, group-chat creation or email/push notifications.
 - Concierge and Super Admin workflows, staff-only oversight, contract/document storage, audit trails, file access policies, and private correspondence are not implemented in these pages. Keep the previous private-chat prototype separate until the role model is integrated deliberately.
 - For production, review every RLS policy and add server-side validation, rate limiting, audit logging, email verification, account recovery, and private Storage policies.
+
+\n## Theme and favicon update
+- Light mode uses the white circular T#ODS favicon with dark lettering.
+- Dark mode uses the black T#ODS favicon with light lettering.
+- The theme control is in the shared site header. It follows the visitor's system preference on first visit and remembers a manual choice in that browser.
+- All HTML pages use the shared theme control and favicon assets.

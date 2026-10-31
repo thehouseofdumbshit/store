@@ -1,5 +1,5 @@
 // Browser-safe Supabase configuration. Never put a service-role key here.
 window.HOUSE_CONFIG = {
-  supabaseUrl: "https://qqzryplovmdsfheetgem.supabase.co",
-  supabaseAnonKey: "sb_publishable_n7OV6hJEpasUBv3fcR0Lmg_63-YPNEh"
+  supabaseUrl: "https://YOUR_PROJECT_REF.supabase.co",
+  supabaseAnonKey: "YOUR_SUPABASE_ANON_OR_PUBLISHABLE_KEY"
 };
